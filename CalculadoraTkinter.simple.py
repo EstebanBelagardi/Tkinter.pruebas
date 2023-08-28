@@ -4,6 +4,7 @@ class CalculadoraApp:
     def __init__(self, ventana):
         self.ventana = ventana
         self.ventana.title("Calculadora")
+        self.ventana.configure(bg="blue")  # Cambiar el color de fondo a azul
         
         self.primerNumero = tk.StringVar()
         self.segundoNumero = tk.StringVar()

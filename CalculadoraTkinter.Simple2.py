@@ -4,6 +4,7 @@ class SimpleCalculator:
     def __init__(self, root):
         self.root = root
         self.root.title("Simple Calculator")
+        self.root.configure(bg="yellow") 
 
         self.result_var = tk.StringVar()
 

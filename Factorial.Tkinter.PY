@@ -5,6 +5,7 @@ class FactorialApp:
     def __init__(self, ventana):
         self.ventana = ventana
         self.ventana.title("Factorial")
+        self.ventana.configure(bg="red") 
         
         self.n = 1
         self.factorialActual = 1

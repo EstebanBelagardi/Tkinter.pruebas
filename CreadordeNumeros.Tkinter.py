@@ -5,6 +5,7 @@ class GeneradorNumerosApp:
     def __init__(self, ventana):
         self.ventana = ventana
         self.ventana.title("Generador de números")
+        self.ventana.configure(bg="red") 
         
         self.numero1 = tk.IntVar()
         self.numero2 = tk.IntVar()

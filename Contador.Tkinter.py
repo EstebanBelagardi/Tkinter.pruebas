@@ -4,6 +4,7 @@ class ContadorApp:
     def __init__(self, ventana):
         self.ventana = ventana
         self.ventana.title("Contador")
+        self.ventana.configure(bg="red") 
         
         self.contadorActual = 0
         

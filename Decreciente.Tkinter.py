@@ -4,6 +4,7 @@ class ContDecrecienteApp:
     def __init__(self, ventana):
         self.ventana = ventana
         self.ventana.title("ContDecreciente")
+        self.ventana.configure(bg="red") 
         
         self.contador =100
         
